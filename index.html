@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Главная</title>
+</head>
+<body>
+  <!-- <div class="loader" id="preloader">
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1.00008 6.03996C1.00008 8.82344 3.2566 11.08 6.04008 11.08C8.82356 11.08 11.0801 8.82344 11.0801 6.03996C11.0801 3.25648 8.82356 0.999956 6.04008 0.999956C5.38922 0.999956 4.7672 1.1233 4.196 1.348" stroke="#9873FF" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+      </svg>
+  </div> -->
+  <header class="header" >
+  <a href="#" class="logo header__logo reset-link">
+    <img src="img/logo.png" alt="logo" class="logo__img">
+  </a>
+  <div class="search-wrapper" id="searchWrapper">
+    <input type="text" class="search-input reset-input" placeholder="Введите запрос" id="search">
+    <div class="resultWrapper" id="searchResult"></div>
+  </div>
+  
+</header>
+  <main class="container">
+    <h1 class="title">Контакты</h1>
+    
+      
+    
+    <table class="table">
+      <thead class="table__head">
+        <tr>
+          <th id="id">
+            ID
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.49691e-07 4L0.705 4.705L3.5 1.915L3.5 8L4.5 8L4.5 1.915L7.29 4.71L8 4L4 -3.49691e-07L3.49691e-07 4Z" fill="#9873FF"/>
+            </svg>
+          </th>
+          <th id="name" class="rotate">Фамилия Имя Отчество
+            <span>
+              <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.49691e-07 4L0.705 4.705L3.5 1.915L3.5 8L4.5 8L4.5 1.915L7.29 4.71L8 4L4 -3.49691e-07L3.49691e-07 4Z" fill="#9873FF"/>
+              </svg>
+              A-Я
+            </span>
+          </th>
+          <th id="createDate" class="rotate">Дата и время создания
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.49691e-07 4L0.705 4.705L3.5 1.915L3.5 8L4.5 8L4.5 1.915L7.29 4.71L8 4L4 -3.49691e-07L3.49691e-07 4Z" fill="#9873FF"/>
+            </svg>
+          </th>
+          <th id="changeDate" class="rotate">Последние изменения
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.49691e-07 4L0.705 4.705L3.5 1.915L3.5 8L4.5 8L4.5 1.915L7.29 4.71L8 4L4 -3.49691e-07L3.49691e-07 4Z" fill="#9873FF"/>
+            </svg>
+          </th>
+          <th>Контакты</th>
+          <th>Действия</th>
+        </tr>
+      </thead>
+      <tbody class="table__body" id="tableBody">
+        
+      </tbody>
+    </table>
+    <button class="reset-btn btn btn_secondary main__btn" id="addClient">
+      <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z"/>
+        </svg>
+      Добавить клиента
+    </button>
+  </main>
+  <svg>
+    <use xlink:hfer="./img/icons/icons.svg#delete">
+  </svg>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
